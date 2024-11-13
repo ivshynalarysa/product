@@ -373,6 +373,9 @@ margin-bottom: 10px;
 }
 .strategies-item {
   max-width: 350px;
+  border: 2px solid #dedede;
+  border-radius: 8px;
+  height: 359px;
 }
 .strategies-image {
   margin-bottom: 24px;
@@ -395,4 +398,136 @@ line-height: 1.7;
 }
 .strategies-item-text-color {
   color: #02897a; 
+}
+
+/*section 6*/
+
+.price-table-title {
+font-weight: 700;
+font-size: 34px;
+text-align: center;
+margin-bottom: 10px;
+}
+.price-table-subtitle {
+font-weight: 500;
+text-align: center;
+margin-bottom: 40px;
+}
+.price-table-list {
+display: flex;
+justify-content: center;
+gap: 72px;
+width: calc((100%-144) / 3);
+}
+.price-table-item {
+font-family: "Montserrat", sans-serif; 
+text-align: center;
+border-radius: 8px;
+width: 322px;
+height: 456px;
+box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.35);
+
+}
+.price-table-item-center {
+  background: #02897a;
+  color: #fff;
+}
+.price-table-item-title {
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+}
+.price-table-item-text {
+  line-height: 2.5;
+  margin-bottom: 16px;
+}
+
+.price-table-item-list-center {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.7;
+
+}
+
+
+.price-table-item-per-month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin-bottom: 16px;
+  
+}
+.price-month {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+  }
+  .price-month-center {
+    color: #fff;
+  }
+
+.price-currency {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-currency-dollar {
+text-align: left;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.25;
+letter-spacing: 0em;
+color: #02897a;
+}
+.price-currency-dollar-center {
+color: #fff;}
+
+
+.price-currency-text {
+line-height: 1.19;
+letter-spacing: 0.01em;
+color: #afafaf;
+
+}
+.price-currency-text-center {
+line-height: 1.19;
+letter-spacing: 0.01em;
+color: #e0e0e0;
+
+}
+.price-table-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+.price-table-item-list-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+.price-table-btn {
+  border-radius: 8px;
+  min-width: 139px;
+  height: 44px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  background: #02897a;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.price-table-btn-center {
+  background-color: #fff;
+  color: #02897a;
 }
