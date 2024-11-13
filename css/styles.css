@@ -613,3 +613,47 @@ line-height: 1.7;
 letter-spacing: 0.01em;
 color: #252b42;
 }
+
+/*section 8*/
+.section-promo {
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+.promo-container {
+  display: flex;
+  
+  max-width: 968px;
+  border-radius: 32px;
+  height: 345px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #02897a;
+}
+.promo-block {
+  padding-top: 49px;
+  padding-left: 51px;
+  padding-bottom: 56px;
+ 
+}
+.promo-text {
+  width: 510px;
+  font-weight: 600;
+font-size: 32px;
+line-height: 1.5;
+color: #fff;
+margin-bottom: 46px;
+
+
+}
+.promo-btn {
+border-radius: 8px;
+min-width: 150px;
+height: 50px;
+font-weight: 600;
+font-size: 20px;
+color: #02897a;
+}
+.promo-graphics {
+  padding-top: 4px;
+}
