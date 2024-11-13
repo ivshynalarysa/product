@@ -167,6 +167,7 @@ margin-bottom: 45px;
   color: #fff;
 } 
 .hero-btn-watch {
+  display: flex;
   min-width: 164px;
   height: 23px;
   font-weight: 600;
@@ -176,6 +177,8 @@ padding-top: 15px;
 background-color: transparent;
 
 }
+.hero-btn-watch-icon {margin-right: 9px;}
+
  /*section 2*/
 .section-feature {
 }
@@ -194,9 +197,12 @@ background-color: transparent;
 .feature-list { display: flex;
   width: calc((100%-90) / 4);
   margin-bottom: 50px;
+  gap: 30px;
 }
 .feature-item {
+  min-height: 204px;
 }
+.feature-item-icon {}
 .feature-item-title {
 
   font-weight: 600;
@@ -415,7 +421,7 @@ margin-bottom: 40px;
 }
 .price-table-list {
 display: flex;
-justify-content: center;
+
 gap: 72px;
 width: calc((100%-144) / 3);
 }
@@ -436,7 +442,7 @@ box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.35);
   margin-top: 32px;
   font-weight: 700;
   font-size: 24px;
-  line-height: 1.66667;
+  line-height: 1.7;
 }
 .price-table-item-text {
   line-height: 2.5;
@@ -476,10 +482,11 @@ box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.35);
 .price-currency {
   display: flex;
   flex-direction: column;
+  text-align: left;
+  padding-left: 7px;
 }
 
 .price-currency-dollar {
-text-align: left;
 font-weight: 700;
 font-size: 24px;
 line-height: 1.25;
@@ -530,4 +537,78 @@ color: #e0e0e0;
 .price-table-btn-center {
   background-color: #fff;
   color: #02897a;
+}
+
+/*section 7*/
+
+.feedback-title {
+font-weight: 700;
+font-size: 32px;
+line-height: 1.8;
+letter-spacing: 0.01em;
+text-align: center;
+}
+.feedback-subtitle {
+font-weight: 500;
+line-height: 1.75;
+letter-spacing: 0.01em;
+text-align: center;
+max-width: 537px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 40px;
+
+}
+.feedback-list {
+  display: flex;
+  gap: 64px;
+  
+}
+.feedback-item {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #02897a;
+  border-radius: 5px;
+  padding: 28px 26px;
+  width: 327px;
+  height: 240px;
+
+
+}
+
+.feedback-icon {
+  margin-bottom: 10px;
+}
+.feedback-item-text {
+line-height: 1.75;
+letter-spacing: 0.01em;
+color: #737373;
+margin-bottom: 17px;
+
+ 
+ 
+}
+.feedback-item-customer {
+  display: flex;
+  align-items: center;
+  
+}
+.feedback-item-customer-date {
+  margin-left: 14px;
+}
+.feedback-item-customer-link {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.01em;
+color: #02897a;
+}
+.feedback-item-customer-calling {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.01em;
+color: #252b42;
 }
