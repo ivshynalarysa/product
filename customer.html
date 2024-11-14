@@ -4,75 +4,326 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Customer</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@100;400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./css/styles.css" />
+
+</head>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
-          ><img
+    <!--header-->
+
+    <header class="header">
+      <div class="container header-container">
+      <nav class="header-nav">
+        <a  class="header-logo" href="./index.html">
+          <img
             src="./images/logo.svg"
             alt="logo"
             width="40"
             height="36"
-          />Product</a
-        >
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customer.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+          />Product</a>
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="./index.html">Product</a></li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="./pricing.html">Pricing</a></li>
+          <li class="header-nav-item">
+            <a class="header-nav-link current" href="./customer.html">Customers</a></li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="">Resources</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
+      <ul class="header-button-list">
+        <li class="header-button-item"><button class="header-button" type="button">Sign In</button></li>
+        <li class="header-button-item"><button class="header-button" type="button">Sign Up</button></li>
       </ul>
+    </div>
     </header>
 
     <main>
-      <section>
-        <h1>Our Clients</h1>
-        <ul>
-          <li>
-            <a href="#" target="_blank"
-              ><img
+
+<!--section 1 Our Clients-->
+      <section class="section our-clients-section">
+        <div class="our-clients-container">
+        <h1 class="our-clients-title">Our Clients</h1>
+        <ul class="our-clients-list">
+          <li class="our-clients-item">
+            <a class="our-clients-link" href="#" target="_blank">
+              <img
                 src="./images/airbnb-logo.svg"
                 alt="airbnb-logo"
                 width="160"
-                height="50"
-            /></a>
+                height="50"/>
+              </a>
           </li>
-          <li>
-            <a href="#" target="_blank"
-              ><img
+          <li class="our-clients-item">
+            <a class="our-clients-link" href="#" target="_blank">
+              <img
                 src="./images/google-logo.svg"
                 alt="google-logo"
                 width="146"
-                height="50"
-            /></a>
+                height="50"/>
+              </a>
           </li>
-          <li>
-            <a href="#" target="_blank"
-              ><img
+          <li class="our-clients-item">
+            <a class="our-clients-link" href="#" target="_blank">
+              <img
                 src="./images/microsoft-logo.svg"
                 alt="microsoft-logo"
                 width="213"
-                height="44"
-            /></a>
+                height="44"/>
+              </a>
           </li>
-          <li>
-            <a href="#" target="_blank"
-              ><img
+          <li class="our-clients-item">
+            <a class="our-clients-link" href="#" target="_blank">
+              <img
                 src="./images/fedEx-logo.svg"
                 alt="fedEx-logo"
                 width="140"
-                height="42"
-            /></a>
+                height="42"/>
+              </a>
           </li>
         </ul>
+      </div>
       </section>
-      
 
-    </main>
+<!--section 2 reasons for choosing products-->
+
+<section class="section">
+  <div class="container">
+    <h2 class="reasons-title">Why Choose Product?</h2>
+    <ul class="reasons-list">
+      <li class="reasons-item">
+        <svg class="reasons-icon-green" width="50" height="50">
+          <use href="./images/icons.svg#icon-green-cursor"></use>
+        </svg>
+        <h3 class="reasons-item-title">Special Business</h3>
+        <p class="reasons-item-text">Product helps you see how many 
+          more days you need to work 
+          to reach your financial goal 
+          for the month and year.</p>
+      </li>
+      <li class="reasons-item">
+        <svg class="reasons-icon-blue" width="50" height="50">
+          <use href="./images/icons.svg#icon-blue-wave-"></use>
+        </svg>
+        <h3 class="reasons-item-title">Instant Result</h3>
+        <p class="reasons-item-text">Product helps you see how many 
+          more days you need to work 
+          to reach your financial goal 
+          for the month and year.</p>
+      </li>
+      <li class="reasons-item">
+        <svg class="reasons-icon-red" width="50" height="50">
+          <use href="./images/icons.svg#icon-purple-heard"></use>
+        </svg>
+        <h3 class="reasons-item-title">Fastest way to organize</h3>
+        <p class="reasons-item-text">Product helps you see how many 
+          more days you need to work 
+          to reach your financial goal 
+          for the month and year.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!--section 3 How Product Work-->
+
+<section class="section description-work-section">
+  <div class="container">
+    <h2 class="description-work-title">How Product Work?</h2>
+    <ul class="description-work-list">
+   
+      <li class="description-work-item">
+        <img src="" alt="screen desktop" class="description-work-image"
+        width="500"
+        height="280">
+        <div class="description-work-item-text-box">
+        <h3 class="description-work-item-title">STEP 1</h3>
+        <h4 class="description-work-item-subtitle">Apply for a product</h4>
+        <p class="description-work-item-text">Completing our easy step-by-step application form gives you access to multiple business with multiple products. We analyse your business through our proprietary credit analysis technology </p>
+      </div>
+      </li>
+      <li class="description-work-item">
+        <div class="description-work-item-text-box">
+        <h3 class="description-work-item-title">STEP 2</h3>
+        <h4 class="description-work-item-subtitle">Pay fully refundable</h4>
+        <p class="description-work-item-text">Product will contactting you instantly to receive payment of the Application Fee. if no offer of product is available, your fee will be fully refunded.</p>
+      </div>
+        <img src="" alt="screen desktop" class="description-work-image"
+        width="500">
+      </li>
+      <li class="description-work-item">
+        <img src="" alt="screen desktop" class="description-work-image"
+        width="500">
+        <div class="description-work-item-text-box">
+        <h3 class="description-work-item-title">STEP 3</h3>
+        <h4 class="description-work-item-subtitle">Completion</h4>
+        <p class="description-work-item-text">Product will continue to liase between borrower and manager to procees and complete a quick and efficient settlement</p>
+        </div>
+      </li>
+    </ul>
+    <button type="button" class="description-work-btn">Get in touch with us</button>
+  </div>
+</section>
+
+<!--section 4 Join thousand of other-->
+
+<section class="section join-us-section">
+  <div class="container">
+    <h2 class="join-us-title">Join thousand of other who have
+      already received offers</h2>
+      <ul class="join-us-list">
+        <li class="join-us-item">
+          <svg class="join-us-icon-red" width="61" height="61">
+            <use href="./images/icons.svg#"></use>
+          </svg>
+          <h3 class="join-us-item-title">Business</h3>
+          <ul class="join-us-item-list">
+            <li class="join-us-item-list-item">Cash Flow</li>
+            <li class="join-us-item-list-item">Asset Backed</li>
+            <li class="join-us-item-list-item">Receivables Finance</li>
+          </ul>
+          <p class="join-us-item-subtitle">Find the best business product</p>
+        </li>
+        <li class="join-us-item">
+          <svg class="join-us-icon-blue" width="61" height="61">
+            <use href="./images/icons.svg#"></use>
+          </svg>
+          <h3 class="join-us-item-title">Enterprise</h3>
+          <ul class="join-us-item-list">
+            <li class="join-us-item-list-item">Site Acquisition</li>
+            <li class="join-us-item-list-item">Bridge </li>
+            <li class="join-us-item-list-item">Development Financing</li>
+          </ul>
+          <p class="join-us-item-subtitle">Find the best business product</p>
+        </li>
+      </ul>
+    
+  </div>
+</section>
+
+<!--section 8 Promo-->
+<section class="section-promo">
+  <div class="promo-container">
+    <div class="promo-block">
+      <p class="promo-text">Join 100 Compannies who boost their business with Product</p>
+      <button type="button" class="promo-btn">Get This</button>
+      </div>
+    
+    
+    <img class="promo-graphics"
+       src="./images/graphics.svg" 
+       alt="graphics" 
+       width="351"
+       height="331"
+      >
+  </div>
+</section>
+</main>
+
+<!--footer-->
+<footer>
+
+<div class="container footer-container">
+  <div class="footer-logo-social-media">
+    <a class="footer-logo" href="./index.html">
+      <img
+              src="./images/logo.svg"
+              alt="logo"
+              width="40"
+              height="36"
+            />Product</a>
+    <ul class="footer-social-media-list">
+      <li class="footer-social-media-item">
+        
+        <svg class="footer-social-media-icon" width="40" height="40">
+          <use href="./images/icons.svg#icon-instagram"></use>
+        </svg>
+      </li>
+      <li class="footer-social-media-item">
+        <svg class="footer-social-media-icon" width="40" height="40">
+          <use href="./images/icons.svg#icon-facebook"></use>
+        </svg>
+      </li>
+      <li class="footer-social-media-item">
+        <svg class="footer-social-media-icon" width="40" height="40">
+          <use href="./images/icons.svg#icon-instagram"></use>
+        </svg>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-resourse">
+    <h2 class="footer-resourse-title">Resource</h2>
+    <ul class="footer-resourse-list">
+      <li class="footer-resourse-item">
+        <a href="" class="footer-resourse-item-link"
+         alt="About Us">About Us</a>
+      </li>
+      <li class="footer-resourse-item">
+        <a href="" class="footer-resourse-item-link"
+         alt="About Us">Blog</a>
+        </li>
+      <li class="footer-resourse-item">
+        <a href="" class="footer-resourse-item-link"
+         alt="About Us">Contact</a>
+        </li>
+      <li class="footer-resourse-item">
+        <a href="" class="footer-resourse-item-link"
+         alt="About Us">FAQ</a>
+        </li>
+    </ul>
+  </div>
+  <div class="footer-legal-staff">
+    <h2 class="footer-legal-staff-title">Legal Stuff</h2>
+    <ul class="footer-legal-staff-list">
+      <li class="footer-legal-staff-item">
+        <a href="" class="footer-legal-staff-item-link"
+         alt="About Us">Disclaimer</a>
+      </li>
+      <li class="footer-legal-staff-item">
+        <a href="" class="footer-legal-staff-item-link"
+         alt="About Us">Financing</a>
+        </li>
+      <li class="footer-legal-staff-item">
+        <a href="" class="footer-legal-staff-item-link"
+         alt="About Us">Privacy Polic</a>
+        </li>
+      <li class="footer-legal-staff-item">
+        <a href="" class="footer-legal-staff-item-link"
+         alt="About Us">Terms of Service</a>
+        </li>
+    </ul>
+  </div>
+  <div class="for-customers">
+    <h2 class="footer-for-customers-title">knowing you're always on the best energy deal. 
+    </h2>
+    <div class="footer-inpun-box">
+      <svg class="footer-input-box-icon" width="18" height="28">
+        <use href="./images/icons.svg#icon-mobile-screen"></use>
+      </svg>
+    <input class="footer-input"
+    type="email" 
+    name="user-email"
+    id="user-email"
+    placeholder="Enter your phone number">
+  </div>
+    <button type="button" class="footer-btn">Sign up Now</button>
+  </div>
+</div>
+</footer>
   </body>
 </html>
