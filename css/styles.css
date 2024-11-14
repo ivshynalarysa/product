@@ -657,3 +657,125 @@ color: #02897a;
 .promo-graphics {
   padding-top: 4px;
 }
+
+/*footer*/
+
+.footer-container {
+  display: flex;
+  
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 178px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.9;
+  color: #173a56;
+  margin-right: 146px;
+  margin-bottom: 18px;
+}
+.footer-social-media-list {
+  display: flex;
+  gap: 16px;
+  width: 152px;
+  height: 40px;
+
+}
+.footer-social-media-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+ ;
+}
+.footer-social-media-icon {
+ 
+}
+.footer-resourse {
+  margin-right: 129px;
+}
+.footer-resourse-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+
+}
+.footer-resourse-list {
+
+}
+.footer-resourse-item {
+font-weight: 400;
+font-size: 16px;
+line-height: 2.2;
+}
+.footer-resourse-item-link {
+  color: #22343d;
+}
+.footer-legal-staff {
+  margin-right: 83px;
+}
+.footer-legal-staff-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+min-width: 280px;
+
+}
+.footer-legal-staff-list {
+}
+.footer-legal-staff-item {
+}
+.footer-legal-staff-item-link {
+font-weight: 400;
+font-size: 16px;
+line-height: 2.1875;
+color: #22343d;
+}
+.for-customers {
+}
+.footer-for-customers-title {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+margin-bottom: 30px;
+}
+.footer-inpun-box {
+display: flex;
+align-items: center;
+margin-bottom: 25px;
+border: 1px solid #bcd0e5;
+border-radius: 4px;
+width: 325px;
+height: 48px;
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.75;
+
+}
+
+.footer-input-box-icon {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.footer-input {
+border: none;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.75;
+color: #02897a;
+width: 100%;
+
+}
+
+.footer-btn {
+border-radius: 4px;
+min-width: 131px;
+height: 39px;
+background-color: #02897a;
+font-weight: 700;
+text-align: center;
+color: #fff;
+}
